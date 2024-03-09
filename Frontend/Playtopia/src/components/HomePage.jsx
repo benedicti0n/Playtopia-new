@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
-import Events2 from "./Events2.jsx";
+// import Events2 from "./Events2.jsx";
 import Gallery from "./Gallery.jsx";
+import Carousel from "./Carousel.jsx";
 // import Loader from "./Loader";
 
 // import '../Styles/Transition.css'
@@ -29,7 +30,7 @@ function HomePage() {
       <Aboutus/>
     </section>
     <section className='snap-center'>
-      <Events2/>
+      <Carousel/>
     </section>
     <section className='snap-center'>
       <Gallery/>

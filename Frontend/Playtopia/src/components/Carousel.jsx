@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './CarouselComponent.css'; // Import your CSS file here
+import '../Styles/Carousel.css'; // Import your CSS file here
 import games from './games';
-const CarouselComponent = () => {
+const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (index) => {
@@ -30,4 +30,4 @@ const CarouselComponent = () => {
   );
 }
 
-export default CarouselComponent;
+export default Carousel;
