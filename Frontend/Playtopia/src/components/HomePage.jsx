@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
-// import Events2 from "./Events2.jsx";
+import Events2 from "./Events2.jsx";
 import Gallery from "./Gallery.jsx";
-import Carousel from "./Carousel.jsx";
+// import Carousel from "./Carousel.jsx";
 // import Loader from "./Loader";
 
 // import '../Styles/Transition.css'
@@ -21,8 +21,7 @@ function HomePage() {
 
 
   return (
-    <div>
-      <div className='h-screen  z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[indigo]'>
+      <div className='h-screen snap-y snap-mandatory overflow-scroll  z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[indigo]'>
     <section  className='snap-center'>
       <Home/>
     </section>
@@ -30,7 +29,7 @@ function HomePage() {
       <Aboutus/>
     </section>
     <section className='snap-center'>
-      <Carousel/>
+      <Events2/>
     </section>
     <section className='snap-center'>
       <Gallery/>
@@ -39,7 +38,6 @@ function HomePage() {
       <Footer/>
     </section>
   </div>
-    </div>
     
   );
 }
