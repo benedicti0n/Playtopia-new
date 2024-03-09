@@ -8,6 +8,7 @@ import Gallery from "./Gallery.jsx";
 // import Loader from "./Loader";
 
 // import '../Styles/Transition.css'
+import '../Styles/HomePage.css'
 
 function HomePage() {
 //   const [loading, setLoading] = useState(false);
@@ -21,20 +22,20 @@ function HomePage() {
 
 
   return (
-      <div className='h-screen snap-y snap-mandatory overflow-scroll  z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[indigo]'>
-    <section  className='snap-center'>
+      <div className='h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[indigo] transition-scroll-2s'>
+    <section>
       <Home/>
     </section>
-    <section  className='snap-center'>
+    <section>
       <Aboutus/>
     </section>
-    <section className='snap-center'>
+    <section>
       <Events2/>
     </section>
-    <section className='snap-center'>
+    <section>
       <Gallery/>
     </section>
-    <section className='snap-center'>
+    <section>
       <Footer/>
     </section>
   </div>
