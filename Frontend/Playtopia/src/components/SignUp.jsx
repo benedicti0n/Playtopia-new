@@ -56,11 +56,11 @@ function SignUp() {
 
         <div className="w-full h-screen lg:h-screen lg:w-1/2 flex justify-center items-center">
         <form
-          className="w-full px-[50px] md:px-[10px] lg:px-[60px] xl:px-[150px] py-8"
+          className="w-full px-[50px] md:px-[200px] lg:px-[60px] xl:px-[150px] py-8"
           onSubmit={handleSubmit}
         >
-          <div className="flex justify-center mx-auto">
-            <img src="/Logo.svg" className="h-24"/>
+          <div className="md:h-[150px] flex justify-center mx-auto">
+            <img src="/Logo.svg" className="h-full"/>
           </div>
           <p className="welcome mt-3 text-xl text-center text-gray-200">
             Welcome

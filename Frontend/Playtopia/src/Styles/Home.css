@@ -6,26 +6,26 @@
 
 
 #swipeDown{
-	height: 400px;
+	height: 300px;
 	width: 30%;
 	display: flex;
 	align-items: flex-end;
 	position: absolute;
-	right: 30px;
-	bottom: 30px;
+	right: 180px;
+	bottom: 60px;
 	z-index: 1;
 }
 
   #swipeDownTxt{
 	position: absolute;
-	width: 2px;
+	width: 3px;
 	height: 100%;
 	bottom: 20px;
 	right: 0;
 	writing-mode: vertical-rl;
 	text-align: end;
 	font-family: 'Kollektif';
-	font-size: 16px;
+	font-size: 17px;
 	color: white;
   }
 
@@ -43,7 +43,7 @@
 	width: 2px;
 	height: 75%;
 	top: 0;
-	right: 21px;
+	right: 25px;
 	background: rgba(255, 255, 255, 0)
   }
   
@@ -92,6 +92,16 @@
 	/* video{
 		mix-blend-mode: difference;
 	} */
+	#swipeDown{
+		height: 400px;
+		width: 30%;
+		display: flex;
+		align-items: flex-end;
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+		z-index: 1;
+	}
 
 	.lines {
 	position: relative;
@@ -104,7 +114,7 @@
   /* Line styles */
   .lines .line {
 	position: absolute;
-	width: 2px;
+	width: 3px;
 	height: 75%;
 	top: 0;
 	right: 21px;
@@ -166,23 +176,49 @@
 }
 
 @media only screen and (min-device-width: 550px) and (max-device-width: 1024px) {
-    #homeContainer{
-		height: 100vh;
-		width: 100%;
-		padding: 15px 25px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		flex-direction: column;
-		position: relative;
-		overflow: hidden;
-		background: url('/bg.jpg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
+    
 
-		
+#swipeDown{
+	height: 300px;
+	width: 30%;
+	display: flex;
+	align-items: flex-end;
+	position: absolute;
+	right: 60px;
+	bottom: 50px;
+	z-index: 1;
+}
+
+  #swipeDownTxt{
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	bottom: 20px;
+	right: 0;
+	writing-mode: vertical-rl;
+	text-align: end;
+	font-family: 'Kollektif';
+	font-size: 20px;
+	color: white;
+  }
+
+  .lines {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+  }
+  
+  /* Line styles */
+  .lines .line {
+	position: absolute;
+	width: 3px;
+	height: 74%;
+	top: 0;
+	right: 25px;
+	background: rgba(255, 255, 255, 0)
+  }
 	
 	}
 
-} 

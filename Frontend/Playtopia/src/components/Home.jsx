@@ -18,7 +18,7 @@ const Home = () => {
 
       <Navbar />
 
-      <h1 className="font-[Simplicity] text-4xl text-white z-0">PlayTopia</h1>
+      <h1 className="font-[Simplicity] text-4xl lg:text-8xl text-white z-0">PlayTopia</h1>
       <div id="swipeDown">
           <div className="lines">
             <div className="line"></div>

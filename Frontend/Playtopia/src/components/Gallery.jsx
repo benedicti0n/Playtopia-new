@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import '../Styles/Gallery.css'
 
 const Gallery = () => {
   useEffect(() => {
@@ -42,8 +43,8 @@ const Gallery = () => {
 
     ScrollTrigger.create({
       trigger: "section",
-      start: "top top",
-      end: "bottom",
+      start: "top+=200 top",
+      end: "+=200",
       markers: true,
       onEnter: () => {
         tl.play();
@@ -54,14 +55,15 @@ const Gallery = () => {
       onUpdate: (self) => {
         const velocity = Math.abs(self.getVelocity());
         tl.timeScale(velocity / 100);
-        tl.timeScale(velocity / 100);
         gsap.to(tl, { timeScale: 1, overwrite: true });
       }
     });
+    
   }, []);
 
   return (
-    <section>
+    <div className='h-screen w-full'>
+      <section>
       <div className="flex justify-center items-center h-screen">
         <div className="ImageScroll__wrapper">
           <div className="ImageScroll__image bg-cover bg-center bg-repeat-x w-full h-full"></div>
@@ -71,6 +73,8 @@ const Gallery = () => {
         </div>
       </div>
     </section>
+    </div>
+    
   );
 };
 

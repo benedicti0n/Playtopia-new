@@ -54,6 +54,7 @@ const Navbar = () => {
         staggerDirection: 1,
       },
     },
+    
   };
 
   return (
@@ -73,7 +74,7 @@ const Navbar = () => {
         className={`fixed left-0 top-0 w-full h-screen origin-top bg-white text-white p-10 ${open ? "" : "hidden"}`}
       >
         <div className="flex h-full flex-col">
-            <p className="cursor-pointer text-md text-white text-end text-2xl" onClick={toggleMenu}>
+            <p className="cursor-pointer text-md text-black text-end text-2xl" onClick={toggleMenu}>
               Close
             </p>
           <motion.div
@@ -81,7 +82,7 @@ const Navbar = () => {
             initial="initial"
             animate={open ? "open" : "initial"}
             exit="initial"
-            className="flex flex-col h-full justify-center font-lora items-center gap-12"
+            className="flex flex-col h-full justify-center font-lora items-center gap-10"
           >
             {navLinks.map((link, index) => (
               <motion.div
@@ -90,7 +91,7 @@ const Navbar = () => {
                   initial: { y: "30vh" },
                   open: { y: 0 },
                 }}
-                className="text-2xl uppercase text-white"
+                className="text-2xl uppercase text-black"
               >
                 <Link to={link.href}>
                   {link.title}

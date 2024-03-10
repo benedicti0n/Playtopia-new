@@ -2,24 +2,15 @@ import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
-import Events2 from "./Events.jsx";
-import Gallery from "./Gallery.jsx";
+import Events from "./Events.jsx";
+import Registration from './Registration.jsx'
+// import Gallery from "./Gallery.jsx";
 // import Carousel from "./Carousel.jsx";
 // import Loader from "./Loader";
 
-// import '../Styles/Transition.css'
 import '../Styles/HomePage.css'
-import Carousel from "./Carousel.jsx";
 
 function HomePage() {
-//   const [loading, setLoading] = useState(false);
-//   useEffect(() => {
-//     setLoading(true);
-//     setTimeout(() => {
-//       setLoading(false);
-//     }, 5000);
-//   }, []);
-
 
 
   return (
@@ -31,7 +22,7 @@ function HomePage() {
       <Aboutus/>
     </section>
     <section>
-      <Carousel/>
+      <Events/>
     </section>
     {/* <section>
       <Gallery/>
