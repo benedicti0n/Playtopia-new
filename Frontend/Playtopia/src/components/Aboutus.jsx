@@ -5,7 +5,7 @@ import Countdown from './Countdown'
 const Aboutus = () => {
   return (
     <div className='w-full h-screen bg-[url("/bgImg1.jpg")] bg-cover bg-center flex justify-end items-center flex-col px-[50-px] lg:pt-0 lg:px-[100px] relative'>
-       <video src="../public/bg3.mp4" autoPlay loop muted className="absolute top-0 left-0 object-cover w-full h-full -z-10"/>
+       <video src="/bg3.mp4" autoPlay loop muted className="absolute top-0 left-0 object-cover w-full h-full -z-10"/>
         
           <div className='w-full absolute top-[100px] px-0'>
           <Countdown />

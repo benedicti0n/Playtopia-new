@@ -13,7 +13,7 @@ const Carousel = () => {
 
   return (
     <div className='h-screen w-full relative '>
-      <video src="../public/bg3.mp4" autoPlay loop muted className="absolute top-0 left-0 object-cover w-full h-full -z-10"/>
+      <video src="/bg3.mp4" autoPlay loop muted className="absolute top-0 left-0 object-cover w-full h-full -z-10"/>
        <section className="game-section absolute bottom-0 left-0 overflow-x-auto">
       <div className='custom-carousel-container'>
       <div className="custom-carousel overflow-hidden">
