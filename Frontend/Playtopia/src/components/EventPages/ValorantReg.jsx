@@ -1,6 +1,6 @@
 import React from "react"
 
-const Registration = () => {
+const ValorantReg = () => {
     return (
         <section className="h-screen w-full bg-white">
             <div className="flex justify-center h-full w-full">
@@ -74,4 +74,4 @@ const Registration = () => {
 }
 
 
-export default Registration;
+export default ValorantReg;

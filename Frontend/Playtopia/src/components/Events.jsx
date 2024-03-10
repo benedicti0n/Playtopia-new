@@ -101,7 +101,7 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
-                  <Link to="/bgmiRegistration">
+                  <Link to="/valorantReg">
                     <button className="h-full w-[190px] md:w-[150px] rounded-md text-center text-2xl md:text-xl">
                       Register
                     </button>

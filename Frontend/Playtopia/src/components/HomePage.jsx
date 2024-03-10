@@ -3,8 +3,8 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
 import Events from "./Events.jsx";
-import Registration from './Registration.jsx'
-// import Gallery from "./Gallery.jsx";
+// import ValorantReg from './EventPages/ValorantReg.jsx'
+import Gallery from "./Gallery.jsx";
 // import Carousel from "./Carousel.jsx";
 // import Loader from "./Loader";
 
@@ -24,9 +24,9 @@ function HomePage() {
     <section className="overflow-hidden">
       <Events/>
     </section>
-    {/* <section>
+    <section>
       <Gallery/>
-    </section> */}
+    </section>
     <section>
       <Footer/>
     </section>

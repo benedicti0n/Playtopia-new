@@ -171,7 +171,7 @@ button {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 550px) {
   body {
     font-size: 14px;
   }
@@ -183,25 +183,24 @@ button {
     font-size: 19px;
     line-height: 24px;
   }
-  .line-title {
-    width: 250px;
-  }
 
   .carousel {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    /* width: 400vh; */
+    overflow-x: hidden;
     scroll-snap-type: x mandatory; /* Enable snapping to each carousel item */
   }
   
   .carousel-item {
-    flex: 0 0 auto; /* Prevent items from stretching to fill the container */
+    display: flex;/* Prevent items from stretching to fill the container */
     scroll-snap-align: start; /* Ensure each item snaps to the start of the container */
-    width: 100%; /* Ensure each item takes up the full width of the container */
-    min-width: 100%; /* Ensure each item has a minimum width of the container */
+    /* overflow: hidden; */
+ /* Ensure each item has a minimum width of the container */
   }
   /* -------- Landing page ------- */
   .game-section {
     padding: 30px 15px 20px;
+    /* width: 100%; */
   }
   .game-section .item {
     margin: 0 10px 40px;
