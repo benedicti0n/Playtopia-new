@@ -21,7 +21,7 @@ function HomePage() {
     <section>
       <Aboutus/>
     </section>
-    <section>
+    <section className="overflow-hidden">
       <Events/>
     </section>
     {/* <section>

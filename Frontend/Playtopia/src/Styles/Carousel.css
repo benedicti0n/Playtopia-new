@@ -30,28 +30,14 @@ button {
   outline: none !important;
 }
 
-
-/* Optionally, you may want to set a fixed height for the container */
-.custom-carousel-container {
-  width: 100%; /* Set the width to 100% */
-  -webkit-overflow-scrolling: touch;
-  overflow-x: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.game-section{
+  overflow: hidden;
 }
 
 .custom-carousel {
   display: flex;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: auto;
-  height: 100%; /* Adjust the height as needed */ /* Set a maximum width for the carousel */
-  white-space: nowrap;
-}
-
-.game-section{
-  overflow-x: auto;
-}
+  height: 100%; 
+  }
 
 /******* Common Element CSS End *********/
 
@@ -116,9 +102,10 @@ button {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
-.game-section .owl-theme.custom-carousel .owl-dots {
+.game-section .custom-carousel {
   margin-top: -20px;
   position: relative;
+  overflow: hidden;
   z-index: 5;
 }
 /******** Middle section CSS End *******/
@@ -200,6 +187,18 @@ button {
     width: 250px;
   }
 
+  .carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snapping to each carousel item */
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto; /* Prevent items from stretching to fill the container */
+    scroll-snap-align: start; /* Ensure each item snaps to the start of the container */
+    width: 100%; /* Ensure each item takes up the full width of the container */
+    min-width: 100%; /* Ensure each item has a minimum width of the container */
+  }
   /* -------- Landing page ------- */
   .game-section {
     padding: 30px 15px 20px;
