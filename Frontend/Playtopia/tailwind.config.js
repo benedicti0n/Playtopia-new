@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xs': { 'raw': '(min-height: 550px)' },
+        // => @media (min-height: 800px) { ... }
+      }
+    },
   },
  plugins: [require('daisyui'),
             require('tailwind-scrollbar'),]
