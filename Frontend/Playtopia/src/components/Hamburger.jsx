@@ -70,7 +70,7 @@ const Navbar = () => {
         initial="initial"
         animate={open ? "animate" : "initial"}
         exit="exit"
-        className={`fixed left-0 top-0 w-full h-screen origin-top bg-transparent backdrop-blur-lg text-white p-10 ${open ? "" : "hidden"}`}
+        className={`fixed left-0 top-0 w-full h-screen origin-top bg-white text-white p-10 ${open ? "" : "hidden"}`}
       >
         <div className="flex h-full flex-col">
             <p className="cursor-pointer text-md text-white text-end text-2xl" onClick={toggleMenu}>
