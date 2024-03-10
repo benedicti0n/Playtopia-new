@@ -15,19 +15,19 @@ function HomePage() {
 
   return (
       <div className='h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[indigo] transition-scroll-2s'>
-    <section>
+    <section id="home">
       <Home/>
     </section>
-    <section>
+    <section id="aboutus">
       <Aboutus/>
     </section>
-    <section className="overflow-hidden">
+    <section id="events" className="overflow-hidden">
       <Events/>
     </section>
-    <section>
+    <section id="gallery">
       <Gallery/>
     </section>
-    <section>
+    <section id="footer">
       <Footer/>
     </section>
   </div>

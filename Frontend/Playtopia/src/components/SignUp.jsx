@@ -51,7 +51,7 @@ function SignUp() {
       <div className="flex h-full w-full mx-auto overflow-hidden shadow-lg bg-gray-800 ">
 
         <div className="hidden bg-cover bg-no-repeat lg:block lg:w-1/2">
-          <img src="/bgImg1.jpg" className="object-cover w-full h-full"/>
+          <img src="/EventBg/Desktop/bgImg2.jpg" className="object-cover w-full h-full"/>
         </div>
 
         <div className="w-full h-screen lg:h-screen lg:w-1/2 flex justify-center items-center">
