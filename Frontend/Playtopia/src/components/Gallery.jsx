@@ -2,7 +2,7 @@ import Marquee from 'react-fast-marquee';
 
 const Gallery = () => {
   return (
-    <div className="min-h-screen p-4 md:p-20">
+    <div className="min-h-screen p-4 md:p-20 flex justify-center items-center flex-col">
       <Marquee className='mt-2'>
         <div className="flex justify-between flex-wrap">
           <div className="w-52 mb-4 md:mb-0">

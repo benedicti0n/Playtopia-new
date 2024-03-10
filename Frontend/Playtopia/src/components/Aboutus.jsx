@@ -11,8 +11,8 @@ const Aboutus = () => {
          <Countdown />
        </div>
        <div className='text-start lg:text-center bg-transparent md:w-[80%] lg:w-[80%] z-10'>
-         <h1 className='font-[Valorax] text-5xl md:text-7xl lg:text-7xl text-white my-[20px] md:my-[50px] lg:my-[50px] mx-[20px] md:mx-[10px] '>About <br /> Us</h1>
-         <p className='font-[Kollektif] text-md md:text-2xl lg:text-2xl text-white mb-[50px] md:mb-[100px] lg:mb-[100px]  mx-[20px] md:mx-[10px] '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quam itaque placeat optio corrupti iste. Nobis distinctio repellat molestiae aliquid esse quasi. Rem nulla quos omnis cum, ad voluptatem expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint neque fuga eaque eligendi assumenda ab explicabo aliquid, quos adipisci itaque numquam quasi reiciendis veritatis alias nulla? Autem,</p>
+         <h1 className='font-[Valorax] text-5xl md:text-7xl lg:text-7xl text-white my-[20px] md:my-[50px] lg:my-[50px] mx-[20px] md:mx-[10px] '>About Us</h1>
+         <p className='font-[Kollektif] text-md md:text-2xl lg:text-2xl text-white mb-[50px] md:mb-[100px] lg:mb-[50px]  mx-[20px] md:mx-[10px] '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quam itaque placeat optio corrupti iste. Nobis distinctio repellat molestiae aliquid esse quasi. Rem nulla quos omnis cum, ad voluptatem expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint neque fuga eaque eligendi assumenda ab explicabo aliquid, quos adipisci itaque numquam quasi reiciendis veritatis alias nulla? Autem,</p>
        </div>
     </div>
   );

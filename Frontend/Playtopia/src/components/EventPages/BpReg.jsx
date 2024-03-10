@@ -13,27 +13,27 @@ const BpReg = () => {
                         </h1>
                         <form className="grid grid-cols-2 gap-5 xs:gap-1 sm:gap-3 mt-8 xs:mt-5 md:grid-cols-2 lg:grid-cols-4">
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Name</label>
+                                <label className="block mb-2 text-sm text-white">Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">In Game Name </label>
+                                <label className="block mb-2 text-sm text-white">In Game Name </label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player Unique ID</label>
+                                <label className="block mb-2 text-sm text-white">Player Unique ID</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Account Level</label>
+                                <label className="block mb-2 text-sm text-white">Account Level</label>
                                 <input type=" number" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Email address</label>
+                                <label className="block mb-2 text-sm text-white">Email address</label>
                                 <input type="email" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Whatsapp Number</label>
+                                <label className="block mb-2 text-sm text-white">Whatsapp Number</label>
                                 <input type=" number" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             

@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import Hamburger from './Hamburger';
-
 import '../Styles/SignUpBtn.css'
 
 const Navbar = () => {
@@ -44,7 +43,7 @@ const Navbar = () => {
 
       ) : (
 
-        <header id="headSection" className='h-full w-full flex justify-between items-center z-3 md:mt-[30px]'>
+        <header id="headSection" className='h-full w-full flex justify-between items-center z-3 md:mt-[30px] lg:mt-0'>
           <div>
             <img src="/Logo.svg" alt="" className='h-[100px] md:h-[100px]'/>
           </div>

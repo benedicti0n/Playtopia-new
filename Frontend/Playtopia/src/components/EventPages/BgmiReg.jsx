@@ -13,79 +13,79 @@ const BgmiReg = () => {
                         </h1>
                         <form className="grid grid-cols-2 gap-3 mt-8 md:grid-cols-2 lg:grid-cols-4">
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Team Leader Name</label>
+                                <label className="block mb-2 text-sm text-white">Team Leader Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Whatsapp number</label>
+                                <label className="block mb-2 text-sm text-white">Whatsapp number</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Email address</label>
+                                <label className="block mb-2 text-sm text-white">Email address</label>
                                 <input type="email" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Team Name </label>
+                                <label className="block mb-2 text-sm text-white">Team Name </label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player1 Real Name</label>
+                                <label className="block mb-2 text-sm text-white">Player1 Real Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player1 In Game Name</label>
+                                <label className="block mb-2 text-sm text-white">Player1 In Game Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player1 In Game ID</label>
+                                <label className="block mb-2 text-sm text-white">Player1 In Game ID</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player2 Real Name</label>
+                                <label className="block mb-2 text-sm text-white">Player2 Real Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player2 In Game Name</label>
+                                <label className="block mb-2 text-sm text-white">Player2 In Game Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player2 In Game ID</label>
+                                <label className="block mb-2 text-sm text-white">Player2 In Game ID</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player3 Real Name</label>
+                                <label className="block mb-2 text-sm text-white">Player3 Real Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player3 In Game Name</label>
+                                <label className="block mb-2 text-sm text-white">Player3 In Game Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player3 In Game Id</label>
+                                <label className="block mb-2 text-sm text-white">Player3 In Game Id</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player4 Real Name</label>
+                                <label className="block mb-2 text-sm text-white">Player4 Real Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player4 In Game Name</label>
+                                <label className="block mb-2 text-sm text-white">Player4 In Game Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player4 In Game Id</label>
+                                <label className="block mb-2 text-sm text-white">Player4 In Game Id</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player5 Real Name</label>
+                                <label className="block mb-2 text-sm text-white">Player5 Real Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player5 In Game Name</label>
+                                <label className="block mb-2 text-sm text-white">Player5 In Game Name</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             <div>
-                                <label className="block mb-2 text-sm text-gray-600">Player5 In Game Id</label>
+                                <label className="block mb-2 text-sm text-white">Player5 In Game Id</label>
                                 <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40" />
                             </div>
                             
