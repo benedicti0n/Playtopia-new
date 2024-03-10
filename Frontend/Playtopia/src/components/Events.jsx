@@ -79,9 +79,12 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
+                  <Link to={"/valoReg"}>
                   <button className="h-full w-[190px] md:w-[150px] rounded-md text-center text-2xl md:text-xl">
                     Register
                   </button>
+                  </Link>
+                  
                 </div>
               </div>
             </div>
@@ -101,7 +104,7 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
-                  <Link to="/valorantReg">
+                  <Link to="/bgmiReg">
                     <button className="h-full w-[190px] md:w-[150px] rounded-md text-center text-2xl md:text-xl">
                       Register
                     </button>
@@ -123,9 +126,12 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
+                  <Link to={"/8bpReg"}>
                   <button className="h-full w-[190px] md:w-[150px] rounded-md text-center text-2xl md:text-xl">
                     Register
                   </button>
+                  </Link>
+                  
                 </div>
               </div>
             </div>
@@ -143,9 +149,12 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
+                  <Link to={"/"}>
                   <button className="h-full w-[190px] md:w-[150px] rounded-md text-center text-2xl md:text-xl">
                     Register
                   </button>
+                  </Link>
+                  
                 </div>
               </div>
             </div>
