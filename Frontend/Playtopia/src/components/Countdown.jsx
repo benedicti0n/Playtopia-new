@@ -49,7 +49,7 @@ const Countdown = () => {
 
   return (
     <div className="p-4 bg-transparent w-full">
-      <div className="w-full max-w-5xl mx-auto flex items-center bg-white">
+      <div className="w-full max-w-5xl mx-auto flex items-center bg-trasparent">
         <CountdownItem num={remaining.days} text="days" />
         <CountdownItem num={remaining.hours} text="hours" />
         <CountdownItem num={remaining.minutes} text="minutes" />
@@ -61,7 +61,7 @@ const Countdown = () => {
 
 const CountdownItem = ({ num, text }) => {
   return (
-    <div className="font-mono w-1/4 h-24 md:h-36 flex flex-col gap-1 md:gap-2 items-center justify-center border-r-[1px] border-slate-200">
+    <div className="font-[Valorax] w-1/4 h-24 md:h-36 flex flex-col gap-1 md:gap-2 items-center justify-center">
       <div className="w-full text-center relative overflow-hidden">
         <AnimatePresence mode="popLayout">
           <motion.span
@@ -70,13 +70,13 @@ const CountdownItem = ({ num, text }) => {
             animate={{ y: "0%" }}
             exit={{ y: "-100%" }}
             transition={{ ease: "backIn", duration: 0.75 }}
-            className="block text-2xl md:text-4xl lg:text-6xl xl:text-7xl text-black font-medium"
+            className="block text-2xl md:text-4xl lg:text-6xl xl:text-7xl text-white font-medium"
           >
             {num}
           </motion.span>
         </AnimatePresence>
       </div>
-      <span className="text-xs md:text-sm lg:text-base font-light text-slate-500">
+      <span className="text-xs md:text-sm lg:text-base font-light text-white">
         {text}
       </span>
     </div>

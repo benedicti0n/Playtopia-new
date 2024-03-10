@@ -10,10 +10,10 @@ const Footer = () => {
                     <div className="w-full  lg:w-2/5">
                         <div className="px-6 flex justify-evenly items-center">
                             <a href="#">
-                                <img className="w-auto h-[120px]" src="/iem_logo_white.png" alt="iem logo" />
+                                <img className="w-auto h-[70px]" src="/iemLogo.png" alt="iem logo" />
                             </a>
                             <a href="#">
-                                <img className="w-auto h-[120px]" src="/Playtopia-Logo-PNG-2.svg" alt="playtopia logo" />
+                                <img className="w-auto h-[120px]" src="/Logo.svg" alt="playtopia logo" />
                             </a>
                         </div>
                     </div>

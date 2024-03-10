@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 import { motion } from "framer-motion";
 
 const navLinks = [
@@ -91,7 +92,9 @@ const Navbar = () => {
                 }}
                 className="text-2xl uppercase text-white"
               >
-                <a href={link.href}>{link.title}</a>
+                <Link to={link.href}>
+                  {link.title}
+                </Link>
               </motion.div>
             ))}
           </motion.div>

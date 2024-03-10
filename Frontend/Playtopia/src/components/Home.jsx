@@ -11,13 +11,14 @@ import "../Styles/Home.css";
 
 const Home = () => {
   return (
-    <div id="homeContainer" className=" h-screen w-full lg:pt-0 lg:px-[100px] lg:pb-[40px] sm:px-[50-px] flex justify-center items-center flex-col relative overflow-hidden] bg-cover bg-center bg-no-repeat">
-
-      <video src="/bg.mp4" autoPlay loop muted className="absolute top-0 left-0 object-cover w-full h-full z-0"/>
+    <div className=" h-screen w-full lg:pt-0 lg:px-[100px] lg:pb-[40px] sm:px-[50-px] flex justify-center items-center flex-col relative ">
+      
+      <video src="/bg.mp4" autoPlay loop muted className="absolute left-0 top-0 object-cover w-full h-full -z-10"/>
+      <div className="h-full w-full bg-[rgba(0,0,0,0.4)] absolute left-0 top-0 "></div>
 
       <Navbar />
 
-      <h1 className="font-[Simplicity] text-[190px] text-white ">Playtopia</h1>
+      <h1 className="font-[Simplicity] text-4xl text-white z-0">PlayTopia</h1>
       <div id="swipeDown">
           <div className="lines">
             <div className="line"></div>

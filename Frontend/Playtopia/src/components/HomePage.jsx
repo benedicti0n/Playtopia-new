@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
-import Events2 from "./Events2.jsx";
+import Events2 from "./Events.jsx";
 import Gallery from "./Gallery.jsx";
 // import Carousel from "./Carousel.jsx";
 // import Loader from "./Loader";
 
 // import '../Styles/Transition.css'
 import '../Styles/HomePage.css'
+import Carousel from "./Carousel.jsx";
 
 function HomePage() {
 //   const [loading, setLoading] = useState(false);
@@ -30,11 +31,11 @@ function HomePage() {
       <Aboutus/>
     </section>
     <section>
-      <Events2/>
+      <Carousel/>
     </section>
-    <section>
+    {/* <section>
       <Gallery/>
-    </section>
+    </section> */}
     <section>
       <Footer/>
     </section>

@@ -24,10 +24,10 @@ const Navbar = () => {
   }), []
 
   return (
-    <div className='w-full lg:h-[100px] sm:h-[70px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50'>
+    <div className='w-[90%] lg:h-[100px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50'>
       {windowWidth.windowWidth < 550 ? (
 
-        <header id="headSection" className='h-[70px] w-full mx-5 mt-2 flex justify-between items-center z-3 '>
+        <header id="headSection" className='h-[70px] w-full mx-1 mt-1 flex justify-between items-center z-3 '>
           <div>
             <img src="/Logo.svg" alt="" className='h-[70px]' />
           </div>

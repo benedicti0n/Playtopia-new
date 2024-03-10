@@ -1,12 +1,9 @@
-/* *{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-} */
-
-*{
-	scroll-behavior: none;
 }
+
 
 #swipeDown{
 	height: 400px;
@@ -14,8 +11,8 @@
 	display: flex;
 	align-items: flex-end;
 	position: absolute;
-	right: 0;
-	bottom: 0;
+	right: 30px;
+	bottom: 30px;
 	z-index: 1;
 }
 
@@ -92,20 +89,9 @@
 
 @media screen and (max-width: 550px) {
 
-	#homeContainer{
-		height: 100vh;
-		width: 100%;
-		padding: 15px 25px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		flex-direction: column;
-		overflow: hidden;
-		background: url('/bgMobile.png');
-		background-repeat: no-repeat;
-		background-position: top;
-		background-size: cover;
-	}
+	/* video{
+		mix-blend-mode: difference;
+	} */
 
 	.lines {
 	position: relative;
@@ -174,7 +160,7 @@
 		writing-mode: vertical-rl;
 		text-align: end;
 		font-family: 'Kollektif';
-		font-size: 13px;
+		font-size: 0.9rem;
 		color: white;
 	  }
 }
