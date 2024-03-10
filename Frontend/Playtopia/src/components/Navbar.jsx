@@ -7,12 +7,29 @@ import '../Styles/SignUpBtn.css'
 const Navbar = () => {
 
   const [windowWidth, setWindowWidth] = useState ({windowWidth: window.innerWidth})
+  const [scrolling, setScrolling] = useState(false);
 
   const detectSize = () => {
     setWindowWidth({
       windowWidth: window.innerWidth
     })
   }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      if (isScrolled !== scrolling) {
+        setScrolling(isScrolled);
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolling]);
+
 
   useEffect(() => {
     window.addEventListener('resize', detectSize)
@@ -23,7 +40,7 @@ const Navbar = () => {
   }), []
 
   const handleScrollToSection = (id) => {
-    event.preventDefault();
+    e.preventDefault();
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -31,7 +48,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='w-[90%] h-[70px] md:h-[100px] lg:h-[100px] md:px-[10px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50'>
+    <div className={`w-[90%] h-[70px] md:h-[100px] lg:h-[100px] md:px-[10px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50 ${scrolling ? 'bg-black' : ''}`}>
       {windowWidth.windowWidth < 550 ? (
 
         <header id="headSection" className='h-full w-full mx-2 mt-7 flex justify-between items-center z-3 '>

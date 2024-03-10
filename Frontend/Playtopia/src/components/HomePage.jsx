@@ -21,7 +21,7 @@ function HomePage() {
     <section id="aboutus">
       <Aboutus/>
     </section>
-    <section id="events" className="overflow-hidden">
+    <section id="events" className=" overflow-q">
       <Events/>
     </section>
     <section id="gallery">

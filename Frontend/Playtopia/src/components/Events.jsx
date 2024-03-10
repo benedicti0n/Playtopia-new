@@ -31,7 +31,7 @@ const Events = () => {
   }),
     [];
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full overflow-hidden">
       {windowWidth.windowWidth < 550 ? (
         <div className="h-screen w-full relative ">
           <video
