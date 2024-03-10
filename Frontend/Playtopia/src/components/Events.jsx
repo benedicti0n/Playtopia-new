@@ -141,7 +141,7 @@ const Events = () => {
               className="carousel-item w-full bg-[url('/EventBg/Desktop/bgImg4.jpg')] bg-cover bg-center flex justify-start items-center text-white"
             >
               <div className="h-[350px] w-[700px] mx-[90px] ">
-                <h1 className="text-9xl md:text-7xl m-0">Carrom</h1>
+                <h1 className="text-9xl md:text-7xl m-0">Photography</h1>
                 <p className="text-2xl md:text-xl my-6">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                   deserunt at, id itaque dolor dolores cumque consequatur,
@@ -164,7 +164,7 @@ const Events = () => {
               className="carousel-item w-full bg-[url('/EventBg/Desktop/bgImg5.jpg')] bg-cover bg-center flex justify-start items-center text-white"
             >
               <div className="h-[350px] w-[700px] mx-[90px] ">
-                <h1 className="text-9xl md:text-7xl m-0">Table Tennis</h1>
+                <h1 className="text-9xl md:text-7xl m-0">Business Hackathon</h1>
                 <p className="text-2xl md:text-xl my-6">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
                   deserunt at, id itaque dolor dolores cumque consequatur,
@@ -192,9 +192,12 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
+                  <Link to={"/treasureHuntReg"}>
                   <button className="h-full w-[190px] md:w-[150px] rounded-md text-center text-2xl md:text-xl">
                     Register
                   </button>
+                  </Link>
+                  
                 </div>
               </div>
             </div>

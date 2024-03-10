@@ -8,6 +8,7 @@ import HomePage from './components/HomePage.jsx';
 import ValorantReg from './components/EventPages/ValorantReg.jsx';
 import BgmiReg from './components/EventPages/BgmiReg.jsx';
 import BpReg from './components/EventPages/BpReg.jsx';
+import TreasureHuntReg from './components/EventPages/TreasureHuntReg.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route path='valorantReg' element= {<ValorantReg/>}/>
       <Route path='bgmiReg' element= {<BgmiReg/>}/>
       <Route path='8bpReg' element= {<BpReg/>}/>
+      <Route path='treasureHuntReg' element= {<TreasureHuntReg/>}/>
       {/* <Route path='forgot-password' element= {<ForgotPassword/>}/> */}
     </Route>
   )
