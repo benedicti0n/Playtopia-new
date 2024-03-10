@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className=" h-screen w-full lg:pt-0 lg:px-[100px] lg:pb-[40px] sm:px-[50-px] flex justify-center items-center flex-col relative ">
       
-      <video src="/bg.mp4" autoPlay loop muted className="absolute left-0 top-0 object-cover w-full h-full -z-10"/>
+      <video src="../public/bg.mp4" autoPlay loop muted className="absolute left-0 top-0 object-cover w-full h-full -z-10"/>
       <div className="h-full w-full bg-[rgba(0,0,0,0.4)] absolute left-0 top-0 "></div>
 
       <Navbar />
