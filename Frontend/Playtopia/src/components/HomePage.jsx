@@ -3,10 +3,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
 import Events from "./Events.jsx";
-// import ValorantReg from './EventPages/ValorantReg.jsx'
 import Gallery from "./Gallery.jsx";
-// import Carousel from "./Carousel.jsx";
-// import Loader from "./Loader";
 
 import '../Styles/HomePage.css'
 

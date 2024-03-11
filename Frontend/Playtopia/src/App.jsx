@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 
 import Layout from './Layout.jsx'

@@ -1,35 +1,7 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 img {
   max-width: 100%;
   border: 0px;
 }
-ul,
-ol {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-  outline: none;
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-}
-a:focus,
-a:active,
-a:visited,
-a:hover {
-  text-decoration: none;
-  outline: none;
-}
-a:hover {
-  color: #e73700;
-}
-button {
-  outline: none !important;
-}
-
 
 
 .custom-carousel {
@@ -111,9 +83,6 @@ button {
 /***** responsive css Start ******/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  h2 {
-    margin-bottom: 32px;
-  }
   h3 {
     margin: 0 0 8px;
     font-size: 24px;
@@ -140,9 +109,7 @@ button {
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-  h2 {
-    margin-bottom: 32px;
-  }
+
   h3 {
     margin: 0 0 8px;
     font-size: 24px;
@@ -171,12 +138,6 @@ button {
 }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  h2 {
-    margin-bottom: 20px;
-  }
   h3 {
     margin: 0 0 8px;
     font-size: 19px;

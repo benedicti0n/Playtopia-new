@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Carousel.css"; 
 import games from "./games";
-import "../Styles/Fonts.css";
 
 const Events = () => {
   const [activeIndex, setActiveIndex] = useState(0);

@@ -1,5 +1,4 @@
 import React from "react"
-// import { Instagram, Facebook } from "lucide-react"
 import '../Styles/Footer.css'
 
 const Footer = () => {

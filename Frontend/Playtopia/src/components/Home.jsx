@@ -1,13 +1,8 @@
-import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import Navbar from "./Navbar.jsx";
-
-import "../Styles/Fonts.css";
+import "../Styles/Fonts.css"
 import "../Styles/Home.css";
-
-// TODO: implement a full page smooth scroll. Reference help links given below:
-// https://www.youtube.com/watch?v=hnbOIVBREUM
-// https://github.com/oelbaga/snapscroll-react
 
 const Home = () => {
 
@@ -40,7 +35,7 @@ const Home = () => {
 
       <Navbar />
 
-      <h1 className="font-[Simplicity] text-4xl md:text-[1] lg:text-8xl text-white z-0">PlayTopia</h1>
+      <h1 className=" text-4xl md:text-6xl lg:text-8xl text-white ">PlayTopia</h1>
       <div id="swipeDown">
           <div className="lines">
             <div className="line"></div>
@@ -51,12 +46,12 @@ const Home = () => {
     </div>
       ) : (<div className=" h-screen w-full lg:pt-0 lg:px-[100px] lg:pb-[40px] sm:px-[50-px] flex justify-center items-center flex-col relative ">
       
-      <video src="/bg.mp4" autoPlay loop muted className="absolute left-0 top-0 object-cover w-full h-full -z-10"/>
+      <video src="/bg.mp4" preload="auto" autoPlay loop muted className="absolute left-0 top-0 object-cover w-full h-full -z-10"/>
       <div className="h-full w-full bg-[rgba(0,0,0,0.4)] absolute left-0 top-0 "></div>
 
       <Navbar />
 
-      <h1 className="font-[Simplicity] text-4xl md:text-7xl lg:text-8xl text-white z-0">PlayTopia</h1>
+      <h1 className="text-4xl font-[Simplicity] md:text-7xl lg:text-8xl text-white">PlayTopia</h1>
       <div id="swipeDown">
           <div className="lines">
             <div className="line"></div>

@@ -1,6 +1,5 @@
 import { MoveLeft, MoveRight, Trash } from "lucide-react";
 import { useState } from "react";
-import './fontstyle.css'
 
 export const FourPlayer = () => {
     const [users, setUsers] = useState([
