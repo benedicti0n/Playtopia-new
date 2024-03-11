@@ -45,7 +45,7 @@ const Footer = () => {
                             <div>
                                 <h3 className=" uppercase text-white">Location</h3>
                                 <a href="#">
-                                    <iframe className="w-full  rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.236881498857!2d88.42683317574301!3d22.57024203305585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b21911df59%3A0x9039fd6aa6c5833c!2sIEM%20Ashram%20Building%2C%20Street%20Number%2027%2C%20GN%20Block%2C%20Nalban%20Bheri%2C%20Dhapa%2C%20Kolkata%2C%20West%20Bengal%20700098!5e0!3m2!1sen!2sin!4v1709735748437!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe className="w-full  rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.236881498857!2d88.42683317574301!3d22.57024203305585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b21911df59%3A0x9039fd6aa6c5833c!2sIEM%20Ashram%20Building%2C%20Street%20Number%2027%2C%20GN%20Block%2C%20Nalban%20Bheri%2C%20Dhapa%2C%20Kolkata%2C%20West%20Bengal%20700098!5e0!3m2!1sen!2sin!4v1709735748437!5m2!1sen!2sin" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </a>
                             </div>
                         </div>

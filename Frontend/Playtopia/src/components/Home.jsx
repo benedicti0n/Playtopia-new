@@ -35,7 +35,7 @@ const Home = () => {
 
       <Navbar />
 
-      <h1 className=" text-4xl md:text-6xl lg:text-8xl text-white ">PlayTopia</h1>
+      <h1 className=" text-4xl md:text-6xl lg:text-8xl text-white z-10">PlayTopia</h1>
       <div id="swipeDown">
           <div className="lines">
             <div className="line"></div>
@@ -51,7 +51,7 @@ const Home = () => {
 
       <Navbar />
 
-      <h1 className="text-4xl font-[Simplicity] md:text-7xl lg:text-8xl text-white">PlayTopia</h1>
+      <h1 className="text-4xl font-[Simplicity] md:text-7xl lg:text-8xl text-white z-10">PlayTopia</h1>
       <div id="swipeDown">
           <div className="lines">
             <div className="line"></div>

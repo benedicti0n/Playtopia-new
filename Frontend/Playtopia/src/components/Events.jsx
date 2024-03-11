@@ -81,7 +81,7 @@ const Events = () => {
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/valorantReg"}>
-                    <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                    <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                   </Link>
@@ -106,7 +106,7 @@ const Events = () => {
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to="/bgmiReg">
-                  <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                  <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                   </Link>
@@ -129,7 +129,7 @@ const Events = () => {
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/8bpReg"}>
-                  <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                  <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                   </Link>
@@ -152,7 +152,7 @@ const Events = () => {
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/"}>
-                  <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                  <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                   </Link>
@@ -174,7 +174,7 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
-                <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                 </div>
@@ -196,7 +196,7 @@ const Events = () => {
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/treasureHuntReg"}>
-                  <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                  <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                   </Link>
@@ -218,7 +218,7 @@ const Events = () => {
                   sint adipisci hic necessitatibus. Nisi, eius.
                 </p>
                 <div className="w-full flex mt-12">
-                <button class="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
+                <button className="w-[150px] bg-white h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
                 </div>
@@ -231,6 +231,7 @@ const Events = () => {
               <img
                 src="/EventBg/SliderLogo/valoLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
@@ -238,13 +239,15 @@ const Events = () => {
               <img
                 src="/EventBg/SliderLogo/bgmiLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
             <a href="#item3" className="h-full w-[120px] bg-cover bg-center">
               <img
-                src="/EventBg/SliderLogo/8bpLogo.jpg"
+                data-src="/EventBg/SliderLogo/8bpLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
@@ -252,6 +255,7 @@ const Events = () => {
               <img
                 src="/EventBg/SliderLogo/carromLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
@@ -259,6 +263,7 @@ const Events = () => {
               <img
                 src="/EventBg/SliderLogo/ttLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
@@ -266,6 +271,7 @@ const Events = () => {
               <img
                 src="/EventBg/SliderLogo/tresureLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
@@ -273,6 +279,7 @@ const Events = () => {
               <img
                 src="/EventBg/SliderLogo/openMicLogo.jpg"
                 alt=""
+                loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
               />
             </a>
