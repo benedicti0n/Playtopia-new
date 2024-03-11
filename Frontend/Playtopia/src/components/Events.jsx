@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "../Styles/Carousel.css"; // Import your CSS file here
+import "../Styles/Carousel.css"; 
 import games from "./games";
 import "../Styles/Fonts.css";
 
@@ -31,8 +31,8 @@ const Events = () => {
   }),
     [];
   return (
-    <div className="h-screen w-full overflow-hidden">
-      {windowWidth.windowWidth < 550 ? (
+    <div className="h-screen w-full ">
+      {windowWidth.windowWidth < 768 ? (
         <div className="h-screen w-full relative ">
           <video
             src="/bg3.mp4"
@@ -41,8 +41,8 @@ const Events = () => {
             muted
             className="absolute top-0 left-0 object-cover w-full h-full -z-10"
           />
-          <section className="game-section absolute bottom-0 left-0">
-            <div className="custom-carousel overflow-hidden">
+          <section className="game-section absolute bottom-0 left-0 ">
+            <div className="carousel">
               {games.map((game, index) => (
                 <div
                   key={index}
@@ -53,7 +53,9 @@ const Events = () => {
                   <div className="item-desc">
                     <h3>{game.title}</h3>
                     <p>{game.description}</p>
-                    <button className="flex justify-center">Register</button>
+                    <Link to={game.route}>
+                    <button className="flex justify-center rounded-lg">Register</button>
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -225,7 +227,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="h-[120px] w-full flex justify-center absolute bottom-5 gap-8 z-20">
+          <div className="h-[120px] w-full flex justify-center absolute bottom-5 lg:gap-8 md:gap-3 z-20">
             <a href="#item1" className="h-full w-[120px] bg-cover bg-center">
               <img
                 src="/EventBg/SliderLogo/valoLogo.jpg"

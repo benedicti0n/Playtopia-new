@@ -30,9 +30,7 @@ button {
   outline: none !important;
 }
 
-.game-section{
-  overflow: hidden;
-}
+
 
 .custom-carousel {
   display: flex;
@@ -125,6 +123,7 @@ button {
   /* -------- Landing page ------- */
   .game-section {
     padding: 50px 30px;
+    ;
   }
   .game-section .item {
     margin: 0 12px 60px;
@@ -140,7 +139,7 @@ button {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   h2 {
     margin-bottom: 32px;
   }
@@ -171,7 +170,7 @@ button {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   body {
     font-size: 14px;
   }
@@ -186,26 +185,30 @@ button {
 
   .carousel {
     display: flex;
-    /* width: 400vh; */
-    overflow-x: hidden;
+    width: 200vh;
+    margin-left: 20px;
+    overflow: scroll;
     scroll-snap-type: x mandatory; /* Enable snapping to each carousel item */
   }
   
   .carousel-item {
     display: flex;/* Prevent items from stretching to fill the container */
     scroll-snap-align: start; /* Ensure each item snaps to the start of the container */
-    /* overflow: hidden; */
+    overflow: hidden;
  /* Ensure each item has a minimum width of the container */
   }
   /* -------- Landing page ------- */
   .game-section {
     padding: 30px 15px 20px;
-    /* width: 100%; */
+    width: 100%;
+    overflow: scroll;
+    
   }
   .game-section .item {
     margin: 0 10px 40px;
     width: 200px;
     height: 280px;
+
   }
   .game-section .item.active {
     width: 270px;
@@ -213,8 +216,16 @@ button {
     -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
   }
   .game-section .item-desc {
-    padding: 0 14px 5px;
+    padding: 0 20px 5px;
     transform: translateY(calc(100% - 42px));
     -webkit-transform: translateY(calc(100% - 42px));
+  }
+  .game-section .item-desc p{
+    margin-bottom: 5px;
+  }
+  .game-section .item-desc button{
+    height: 20px;
+    width: 90px;
+    font-size: 15px;
   }
 }

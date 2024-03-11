@@ -2,7 +2,7 @@ import React from "react"
 
 const ValorantReg = () => {
     return (
-        <section className="h-full w-full lg:h-screen bg-gray-800">
+        <section className="h-full w-full md:h-screen lg:h-screen bg-gray-800">
             <div className="flex justify-center h-full w-full">
                 <div className="hidden bg-cover bg-top lg:block lg:w-2/5" style={{ backgroundImage: 'url("/EventBg/Phone/phnBg1.jpg")' }}>
                 </div>

@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <div className="min-h-screen p-4 md:p-20 flex justify-center items-center flex-col">
       <Marquee className='mt-2'>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-between flex-wrap h-[200px]">
           <div className="w-52 mb-4 md:mb-0">
             <img src="/bgmi.jpg" alt="first image" className="w-full" />
           </div>

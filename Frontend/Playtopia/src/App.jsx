@@ -18,7 +18,10 @@ const router = createBrowserRouter(
       <Route path='valorantReg' element= {<ValorantReg/>}/>
       <Route path='bgmiReg' element= {<BgmiReg/>}/>
       <Route path='8bpReg' element= {<BpReg/>}/>
+      <Route path='photographyReg' element= {<TreasureHuntReg/>}/>
+      <Route path='hackathonReg' element= {<TreasureHuntReg/>}/>
       <Route path='treasureHuntReg' element= {<TreasureHuntReg/>}/>
+      <Route path='openMicReg' element= {<TreasureHuntReg/>}/>
       {/* <Route path='forgot-password' element= {<ForgotPassword/>}/> */}
     </Route>
   )
