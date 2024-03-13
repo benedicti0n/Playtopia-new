@@ -146,7 +146,7 @@ img {
 
   .carousel {
     display: flex;
-    width: 250vh;
+    width: 230vh;
     margin-left: 20px;
     overflow: scroll;
     scroll-snap-type: x mandatory; /* Enable snapping to each carousel item */
@@ -167,12 +167,12 @@ img {
   }
   .game-section .item {
     margin: 0 20px 40px 0px;
-    width: 270px;
-    height: 340px;
+    width: 220px;
+    height: 300px;
 
   }
   .game-section .item.active {
-    width: 320px;
+    width: 260px;
     box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
   }

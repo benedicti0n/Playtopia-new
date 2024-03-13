@@ -22,8 +22,8 @@ const Aboutus = () => {
         <motion.h1
           initial={{ opacity: 0, x: -100 }}
           animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
-          transition={{ duration: 1 }}
-          className="font-[Valorax] text-5xl sm:text-6xl md:text-7xl lg:text-7xl text-white my-[40px] md:my-[50px] lg:my-[50px] mx-[20px] md:mx-[10px] sm:mx-[50px]"
+          transition={{ duration: 0.7 }}
+          className="font-[Valorax] text-5xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-7xl text-white my-[40px] md:my-[50px] lg:my-[50px] mx-[20px] md:mx-[10px] sm:mx-[50px]"
         >
           About Us
         </motion.h1>
@@ -34,7 +34,7 @@ const Aboutus = () => {
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
             transition={{ duration: 1, delay: i / 10 }}
             key={i}
-            className="font-[Kollektif] text-lg md:text-2xl lg:text-2xl text-white mb-[50px] md:mb-[100px] lg:mb-[50px] mx-[20px] md:mx-[10px] sm:mx-[50px] leading-8"
+            className="font-[Kollektif] text-lg  xs:text-lg md:text-2xl lg:text-2xl text-white mb-[50px] md:mb-[100px] lg:mb-[50px] mx-[20px] md:mx-[10px] sm:mx-[50px] leading-8"
           >
             {el}{" "}
           </motion.p>
