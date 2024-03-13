@@ -69,7 +69,7 @@
 	top: -50%;
 	left: 0;
 	border-radius: 40%;
-	background: linear-gradient(to bottom, rgba(255, 217, 0, 0) 0%, #EA535B 75%, #e57177 100%);
+	background: linear-gradient(to bottom, rgba(255, 217, 0, 0) 0%, #2D4E54 75%, #70B3AB 100%);
 	animation: run 4s 0s infinite;
 	animation-fill-mode: forwards;
 	animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -87,7 +87,7 @@
   
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 640px) {
 
 	/* video{
 		mix-blend-mode: difference;
@@ -98,8 +98,8 @@
 		display: flex;
 		align-items: flex-end;
 		position: absolute;
-		right: 20px;
-		bottom: 20px;
+		right: 22px;
+		bottom: 40px;
 		z-index: 1;
 	}
 
@@ -114,7 +114,7 @@
   /* Line styles */
   .lines .line {
 	position: absolute;
-	width: 3px;
+	width: 4px;
 	height: 75%;
 	top: 0;
 	right: 21px;
@@ -142,8 +142,8 @@
 	width: 100%;
 	top: -50%;
 	left: 0;
-	border-radius: 40%;
-	background: linear-gradient(to bottom, rgba(255, 217, 0, 0) 0%, #8d2cf5 75%, #d15eff 100%);
+	border-radius: 50%;
+	background: linear-gradient(to bottom, rgba(255, 217, 0, 0) 0%, #2D4E54 75%, #70B3AB 100%);
 	animation: run 4s 0s infinite;
 	animation-fill-mode: forwards;
 	animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -170,16 +170,16 @@
 		writing-mode: vertical-rl;
 		text-align: end;
 		font-family: 'Kollektif';
-		font-size: 0.9rem;
+		font-size: 1rem;
 		color: white;
 	  }
 }
 
-@media only screen and (min-device-width: 550px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px) {
     
 
 #swipeDown{
-	height: 300px;
+	height: 500px;
 	width: 30%;
 	display: flex;
 	align-items: flex-end;
@@ -191,14 +191,14 @@
 
   #swipeDownTxt{
 	position: absolute;
-	width: 2px;
+	width: 3px;
 	height: 100%;
 	bottom: 20px;
 	right: 0;
 	writing-mode: vertical-rl;
 	text-align: end;
 	font-family: 'Kollektif';
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
   }
 
@@ -206,17 +206,17 @@
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	margin: 0 auto;
   }
   
   /* Line styles */
   .lines .line {
 	position: absolute;
-	width: 3px;
-	height: 74%;
+	width: 4px;
+	height: 83%;
 	top: 0;
-	right: 25px;
+	right: 43px;
 	background: rgba(255, 255, 255, 0)
   }
 	

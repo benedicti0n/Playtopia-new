@@ -18,9 +18,9 @@ const Countdown = () => {
 
   useEffect(() => {
     const countdownDate = new Date(); // Current date and time
-    countdownDate.setDate(countdownDate.getDate() + 1); // Set the countdown to start as per your like
+    countdownDate.setDate(countdownDate.getDate() + 7); // Set the countdown to 7 days from now
 
-    const COUNTDOWN_FROM = countdownDate.toLocaleDateString(); // Change this to whatever date you want to countdown to
+    const COUNTDOWN_FROM = countdownDate.getTime(); // Change this to whatever date you want to countdown to
 
     intervalRef.current = setInterval(() => handleCountdown(COUNTDOWN_FROM), 1000);
 
@@ -33,7 +33,7 @@ const Countdown = () => {
     const now = new Date();
 
     const distance = +end - +now;
-
+  if (distance > 0) {
     const days = Math.floor(distance / DAY);
     const hours = Math.floor((distance % DAY) / HOUR);
     const minutes = Math.floor((distance % HOUR) / MINUTE);
@@ -45,7 +45,18 @@ const Countdown = () => {
       minutes,
       seconds,
     });
-  };
+  } else {
+    // Countdown has reached its end
+    clearInterval(intervalRef.current);
+    setRemaining({
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    });
+  }
+};
+
 
   return (
     <div className="p-4 bg-transparent w-full">

@@ -6,9 +6,12 @@ import games from "./games";
 
 const Events = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedGameSrc, setSelectedGameSrc] = useState(games[0].src);
+  const defaultBackgroundSrc = "/EventBg/Desktop/bgImg1.jpg";
 
   const handleClick = (index) => {
     setActiveIndex(index === activeIndex ? -1 : index);
+    setSelectedGameSrc(index === activeIndex ? null : games[index].src);
   };
 
   const [windowWidth, setWindowWidth] = useState({
@@ -32,20 +35,13 @@ const Events = () => {
   return (
     <div className="h-screen w-full ">
       {windowWidth.windowWidth < 768 ? (
-        <div className="h-screen w-full relative ">
-          <video
-            src="/bg3.mp4"
-            autoPlay
-            loop
-            muted
-            className="absolute top-0 left-0 object-cover w-full h-full -z-10"
-          />
+        <div id="screen" className="h-screen w-full relative bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${selectedGameSrc || defaultBackgroundSrc})` }}>
           <section className="game-section absolute bottom-0 left-0 ">
             <div className="carousel">
               {games.map((game, index) => (
                 <div
                   key={index}
-                  className={`item ${index === activeIndex ? "active" : ""}`}
+                  className={`item ${index === activeIndex ? "active" : ""} bg-cover bg-${game.position}`}
                   style={{ backgroundImage: `url(${game.src})` }}
                   onClick={() => handleClick(index)}
                 >
