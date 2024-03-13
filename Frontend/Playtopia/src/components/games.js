@@ -10,7 +10,6 @@ const games = [
     {
         id: 1,
         title: "Valorant",
-        description: "lorem lorem lorem lorem",
         src: bg1,
         position: "center",
         route: "/valorantReg"
@@ -18,7 +17,6 @@ const games = [
     {
         id: 2,
         title: "BGMI",
-        description: "lorem lorem lorem lorem",
         src: bg2,
         position: "center",
         route: "/bgmiReg"
@@ -26,7 +24,6 @@ const games = [
     {
         id: 3,
         title: "8 Ball Pool",
-        description: "lorem lorem lorem lorem",
         src: bg3,
         position: "center",
         route: "/8bpReg"
@@ -34,7 +31,6 @@ const games = [
     {
         id: 4,
         title: "Photography",
-        description: "lorem lorem lorem lorem",
         src: bg4,
         position: "center",
         route: "/photographyReg"
@@ -42,7 +38,6 @@ const games = [
     {
         id: 5,
         title: "Business Hackathon",
-        description: "lorem lorem lorem lorem",
         src: bg5,
         position: "center",
         route: "/hackathonReg"
@@ -50,7 +45,6 @@ const games = [
     {
         id: 6,
         title: "Treasure Hunt",
-        description: "lorem lorem lorem lorem",
         src: bg6,
         position: "center",
         route: "/treasureHuntReg"
@@ -58,7 +52,6 @@ const games = [
     {
         id: 7,
         title: "Open Mic",
-        description: "lorem lorem lorem lorem",
         src: bg7,
         position: "left",
         route: "/bgmopenMicRegiReg"

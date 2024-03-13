@@ -3,8 +3,8 @@ import '../Styles/Footer.css'
 
 const Footer = () => {
     return (
-        <footer className="h-full w-full relative bg-cover bg-top bg-no-repeat" style={{backgroundImage: 'url(/footer.jpg) '}} >
-            <div className=" w-full px-6 py-10 " style={{backdropFilter: 'blur(30px)'}}>
+        <footer className="h-full w-full relative bg-cover bg-top bg-no-repeat bg-gray-800" >
+            <div className=" w-full px-6 py-10 ">
                 <div className="lg:flex w-full">
                     <div className="w-full  lg:w-2/5">
                         <div className="px-6 flex justify-evenly items-center">

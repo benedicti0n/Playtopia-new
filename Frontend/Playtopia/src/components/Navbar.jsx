@@ -50,7 +50,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-[90%] h-[70px] md:h-[90px] lg:h-[90px] md:px-[10px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50">
+    <div className="w-[90%] h-[70px] md:h-[90px] lg:h-[75px] md:px-[10px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50">
       {windowWidth.windowWidth < 768 ? (
         <motion.header
           id="headSection"
@@ -73,7 +73,7 @@ const Navbar = () => {
           transition={{ type:"tween", stiffness: 150, damping: 20, duration: 0.5 }}
         >
           <div>
-            <img src="/Logo.svg" alt="" className="h-[90px] md:h-[100px]" />
+            <img src="/Logo.svg" alt="" className="h-[90px] md:h-[100px] lg:h-[75px]" />
           </div>
           <div id="linksSection" className="flex justify-center items-center">
             <a

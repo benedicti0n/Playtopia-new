@@ -139,14 +139,14 @@ img {
 
 @media (max-width: 768px) {
   h3 {
-    margin: 0 0 8px;
+    margin: 0 0 20px;
     font-size: 19px;
     line-height: 24px;
   }
 
   .carousel {
     display: flex;
-    width: 200vh;
+    width: 250vh;
     margin-left: 20px;
     overflow: scroll;
     scroll-snap-type: x mandatory; /* Enable snapping to each carousel item */
@@ -167,12 +167,12 @@ img {
   }
   .game-section .item {
     margin: 0 20px 40px 0px;
-    width: 300px;
-    height: 370px;
+    width: 270px;
+    height: 340px;
 
   }
   .game-section .item.active {
-    width: 380px;
+    width: 320px;
     box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
   }

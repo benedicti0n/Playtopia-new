@@ -38,6 +38,8 @@ const Events = () => {
         <div id="screen" className="h-screen w-full relative bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${selectedGameSrc || defaultBackgroundSrc})` }}>
           <section className="game-section absolute bottom-0 left-0 ">
             <div className="carousel">
+            
+              
               {games.map((game, index) => (
                 <div
                   key={index}
@@ -45,9 +47,10 @@ const Events = () => {
                   style={{ backgroundImage: `url(${game.src})` }}
                   onClick={() => handleClick(index)}
                 >
+                  {/* <div className=" absolute z-20 top-[-25px] right-[0px] rounded-[50%] text-xs h-16 w-16 flex justify-center items-center backdrop-blur-lg text-white">Tap <br /> here</div> */}
+                  
                   <div className="item-desc">
                     <h3>{game.title}</h3>
-                    <p>{game.description}</p>
                     <Link to={game.route}>
                     <button className="flex justify-center rounded-lg">Register</button>
                     </Link>
@@ -222,7 +225,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="h-[120px] w-full flex justify-center absolute bottom-5 lg:gap-8 md:gap-3 z-20">
+          <div className="h-[120px] w-full flex justify-center absolute bottom-10 lg:gap-7 md:gap-3 z-20">
             <a href="#item1" className="h-full w-[120px] bg-cover bg-center">
               <img
                 src="/EventBg/SliderLogo/valoLogo.jpg"
@@ -241,7 +244,7 @@ const Events = () => {
             </a>
             <a href="#item3" className="h-full w-[120px] bg-cover bg-center">
               <img
-                data-src="/EventBg/SliderLogo/8bpLogo.jpg"
+                src="/EventBg/SliderLogo/8bpLogo.jpg"
                 alt=""
                 loading="lazy"
                 className="h-full w-full hover:scale-110 transition-transform duration-2000 rounded-lg"
