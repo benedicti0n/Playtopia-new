@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Team from "./Team.jsx"
 import Home from "./Home";
 import Footer from "./Footer";
 import Aboutus from "./Aboutus";
