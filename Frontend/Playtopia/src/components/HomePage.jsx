@@ -11,7 +11,7 @@ function HomePage() {
 
 
   return (
-      <div className='h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[indigo] transition-scroll-2s'>
+      <div className='h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[teal] transition-scroll-2s'>
     <section id="home">
       <Home/>
     </section>
